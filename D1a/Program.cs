@@ -12,7 +12,7 @@ namespace D1a
         static void Main(string[] args)
         {
             int fuelSum = 0;
-            using (StreamReader input = File.OpenText("d:\\programming\\Advent of Code\\data 2019\\D1a\\input.txt"))
+            using (StreamReader input = File.OpenText("d:\\programming\\Advent of Code\\data 2019\\D1\\input.txt"))
             {
                 string number = "";
                 while ((number = input.ReadLine()) != null)
